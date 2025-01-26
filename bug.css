@@ -1,0 +1,1 @@
+The CSS code uses a selector that's too broad, causing unintended styling to other elements. For example, using a tag selector like `div` without being more specific might style all `div` elements on the page.
