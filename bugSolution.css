@@ -1,0 +1,24 @@
+Instead of using overly broad selectors like `div`, be more specific. Use class selectors, IDs, or more specific element selectors combined with class/ID selectors for better control. For example, instead of:
+
+```css
+div {
+  color: blue;
+}
+```
+
+Use:
+
+```css
+.my-specific-div {
+  color: blue;
+}
+```
+
+Or, if the div has an ID:
+
+```css
+#my-unique-div {
+  color: blue;
+}
+```
+This ensures the style only applies to the intended elements, preventing unintended side effects.
